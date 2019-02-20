@@ -12,7 +12,7 @@ class MetaWeblogService extends BaseService {
     private  $charset = "utf-8";
     private  $username = "";
     private  $passwd = "";
-    private  $blog_id = "1";
+    private  $blog_id = "default";
     private  $metaweblog_message = null;
     private  $error = null;
     private  $header = [
